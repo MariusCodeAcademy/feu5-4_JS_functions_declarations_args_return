@@ -24,6 +24,10 @@
 
 - grazina "klaida!!!" jei argumentas string tipo
 
+7. Parašykite funkciją min(a, b), kuri grąžina mažiausią iš dviejų jai perduotų skaičių (a ir b).
+
+Pastaba: Math.min() naudoti negalima.
+
 ## html
 
 // pr7. Sukurti funkcija toggleMode()
