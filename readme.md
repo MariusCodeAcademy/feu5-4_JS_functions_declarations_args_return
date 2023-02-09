@@ -20,6 +20,8 @@
 - boolean - grazinti priesinga jam reiksme
 - jei tipas kitos nei galimi, grazinti "neaprasytas atvejis"
 
+6. Parasyti funkcija isAdult(age). funkcija priklausomai nuo argumento age grazina true jei daugiau nei 17, false jei maziau nei 18
+
 ## html
 
 // pr7. Sukurti funkcija toggleMode()
