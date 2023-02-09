@@ -22,6 +22,8 @@
 
 6. Parasyti funkcija isAdult(age). funkcija priklausomai nuo argumento age grazina true jei daugiau nei 17, false jei maziau nei 18
 
+- grazina "klaida!!!" jei argumentas string tipo
+
 ## html
 
 // pr7. Sukurti funkcija toggleMode()
