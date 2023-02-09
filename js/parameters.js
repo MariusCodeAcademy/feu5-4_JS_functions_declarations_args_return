@@ -43,11 +43,30 @@ function printAvg3(sk1, sk2, sk3) {
 function sayHi(user = 'Mr or Ms') {
   console.log(`hello ${user}, how is your day?`);
 }
-sayHi('Nick');
-sayHi('Jane');
-sayHi();
+// sayHi('Nick');
+// sayHi('Jane');
+// sayHi();
 
 // 1 sukurti funkcija kuri suskaiciuos apskritimo plota kai duotas diametras
 // Math.PI * r kvadratu, diametras yra 2 spinduliai
 // 2 jei diametras nepaduotas tai jis lygus 5
 // 3 jei paduotas diametras lygus 0 tai pranesam su konsole kad neteisingai ivestas diametras
+
+function printCircleArea(diameter = 5) {
+  if (diameter === 0) {
+    // exit clause
+    console.log('Iveskite didesni diametra nei 0');
+    // alert('Iveskite didesni diametra nei 0');
+    return;
+  }
+
+  // gauti spinduli is diametro
+  let r = diameter / 2;
+  // panaudoti spinduli ir suskaiciuoti plota
+  let area = Math.PI * r ** 2;
+  // atspausdinti plota
+  console.log(`Circle with diameter ${diameter} area is ${area.toFixed(2)}`);
+}
+printCircleArea(10);
+printCircleArea();
+printCircleArea(0);
