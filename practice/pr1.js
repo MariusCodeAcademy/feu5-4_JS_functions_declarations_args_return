@@ -17,4 +17,27 @@ function minutesToSeconds(minutes) {
 minutesToSeconds(10);
 minutesToSeconds(5);
 minutesToSeconds(45);
-minutesToSeconds(125);
+let min1 = minutesToSeconds(125);
+console.log('min1 ===', min1);
+
+// parasyti funkcijja kuri gali sudeti arba atimti priklausomai nuo argumentu
+// ir atspausdinti ir grazinti
+
+function calulate(sk1, action, sk2) {
+  if (action === '+') {
+    let sudetis = sk1 + sk2;
+    console.log('sudetis ===', sudetis);
+    return sudetis;
+  } else if (action === '-') {
+    let atimtis = sk1 - sk2;
+    console.log('atimtis ===', atimtis);
+    return atimtis;
+  }
+}
+
+let sk1 = calulate(10, '+', 5);
+let sk2 = calulate(10, '-', 5);
+// console.log('atimtis ===', atimtis);
+let skSuma = sk1 + sk2;
+// arba
+skSuma = calulate(sk1, '+', sk2);
