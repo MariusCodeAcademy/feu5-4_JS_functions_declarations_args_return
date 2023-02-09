@@ -18,4 +18,10 @@ function setLightModeOn() {
 // pr7. Sukurti funkcija toggleMode()
 // jei yra siuo metu dark mode ijungtas tai isjungia
 // jei yra light mode ijungtas tai isjungia
-function toggleMode() {}
+function toggleMode() {
+  if (document.body.className === 'darkMode') {
+    setLightModeOn();
+  } else {
+    setDarkModeOn();
+  }
+}
