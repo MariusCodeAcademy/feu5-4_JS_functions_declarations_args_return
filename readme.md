@@ -13,6 +13,12 @@
 2. parasyti funkcija divide kuri padalina pirma parametra is antro ir grazina
 3. parasyti funkcija avg kuri gauna 2 parametrus ir grazina ju vidurki
 4. parasyti funkcija flow() kurioje sudedam visu auksiau aprasytu funkciju rezultatus ir grazinam ir ispausdinam konsoleje.
+5. parasyti funkcija kuri gauna viena argumenta. patikrinti argumento tipa. Jei tipas yra:
+
+- tekstas - grazinti kiek raidziu turi tekstas
+- skaicius - grazinti kiek bus ta skaiciu padalinti is 2
+- boolean - grazinti priesinga jam reiksme
+- jei tipas kitos nei galimi, grazinti "neaprasytas atvejis"
 
 ## html
 
