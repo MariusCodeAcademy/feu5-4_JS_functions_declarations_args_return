@@ -2,10 +2,10 @@
 
 1. Sukurti funkcija minutesToSeconds(minutes). Fn atspausdina ir grazina kiek sekundziu gautusi pavertum minutes skliausteliuose
    (getSeconds(5) - 300sek)
-1. parasyti funkcija kuri argumentais paima kambario sienu ilgi ploti ir auksti
+2. parasyti funkcija kuri argumentais paima kambario sienu ilgi ploti ir auksti
    ir paskaiciuoja ir atspausdina sienu plota.
-1. padaryti kad sienu plota funkcija grazintu
-1. paskaiciuoti triju skirtingu kambariu sienu plotus ir juos atspausdinti i html arba konsole.
+3. padaryti kad sienu plota funkcija grazintu
+4. paskaiciuoti triju skirtingu kambariu sienu plotus ir juos atspausdinti i html arba konsole.
 
 ## return uzdaviniai
 
