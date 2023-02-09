@@ -46,3 +46,8 @@ function sayHi(user = 'Mr or Ms') {
 sayHi('Nick');
 sayHi('Jane');
 sayHi();
+
+// 1 sukurti funkcija kuri suskaiciuos apskritimo plota kai duotas diametras
+// Math.PI * r kvadratu, diametras yra 2 spinduliai
+// 2 jei diametras nepaduotas tai jis lygus 5
+// 3 jei paduotas diametras lygus 0 tai pranesam su konsole kad neteisingai ivestas diametras
