@@ -29,3 +29,11 @@ addNums();
 // console.log('sum ===', sum); // neegzistuoja
 
 // sukurti fn kuri atima is n1 n2 ir atspausdina pilna atsakyma, iskviesti ir isbandyti
+
+// aprasymas
+function minusNums() {
+  let minusResult = n1 - n2;
+  console.log(`${n1} - ${n2} = ${minusResult}`);
+}
+// iskvietimas
+minusNums();
