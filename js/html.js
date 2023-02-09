@@ -25,3 +25,13 @@ function toggleMode() {
     setDarkModeOn();
   }
 }
+
+// sukurti funkcija kuri skaiciuoja ir atvaizduoja kiek kartu paspausta pelyte
+
+let count = 0;
+function countClick() {
+  count++;
+  // count += 1;
+  // count = count + 1;
+  document.getElementById('counter').textContent = count;
+}
