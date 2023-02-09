@@ -23,6 +23,8 @@ console.log('min1 ===', min1);
 // parasyti funkcijja kuri gali sudeti arba atimti priklausomai nuo argumentu
 // ir atspausdinti ir grazinti
 
+// prideti daugyba ir dalyba prie calculate
+
 function calulate(sk1, action, sk2) {
   if (action === '+') {
     let sudetis = sk1 + sk2;
